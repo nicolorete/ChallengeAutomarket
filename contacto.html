@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <title>Automarket</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor">
+            <div class="barra">
+                <a href="index.html" class="logo">
+                    <h1 class="logo__nombre no-margin centrar-texto">Auto<span class="logo__bold">market</span></h1>
+                </a>
+                <nav class="navegacion">
+                    <a href="index.html" class="navegacion__enlace">Home</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+
+            </div>
+
+        </div>
+
+
+    </header>
+    <main class="contenedor contenedor-formulario">
+        <div class="cabecera">
+        <h3>Cargue sus datos para ser contactado</h3>
+        </div>
+        <form id="formulario" action="" class="formulario">
+            <div class="form-control">
+                <label for="nombre">Nombre</label>
+                <input id="nombre" class="" type="text" placeholder="Tu Nombre" id="nombre">
+                <p></p>
+            </div>
+            <div class="form-control">
+                <label  for="apellido">Apellido</label>
+                <input id="apellido" type="text" placeholder="Tu apellido" id="nombre">
+                <p></p>
+            </div>
+            <div class="form-control">
+                <label class="campo__label" for="provincia">Provincia</label>
+                <input id="provincia" class="campo__field" type="text" placeholder="Provincia" id="nombre">
+                <p></p>
+            </div>
+            <div class="form-control">
+                <label class="" for="email">Email</label>
+                <input id="email" class="campo__field" type="email" placeholder="Tu Email" id="email">
+                <p></p>
+            </div>
+            <div class="campo">
+                <label class="campo__label" for="mensaje">Mensaje</label>
+                <textarea class="campo__field" id="mensaje" cols="30" rows="10"></textarea>
+                <p></p>
+            </div>
+
+            
+                <button type="submit">Enviar</button>
+            
+        </form>
+
+    </main>
+
+    <footer class="footer bgblack">
+        <div class="contenedor">
+            <div class="barra">
+                <a href="index.html" class="logo">
+                    <h1 class="logo__nombre no-margin centrar-texto">Auto<span class="logo__bold">market</span></h1>
+                </a>
+                <nav class="navegacion infobox">
+                    <h4 class="no-margin">Encontranos</h4>
+                    <p class="no-margin infobox-text">tel: 4931919</p>
+                    <p class="no-margin infobox-text">Direccion: Callefalsa123</p>
+                    <p class="no-margin infobox-text">automarket@automarket.com</p>
+                    
+                </nav>
+
+            </div>
+        </div>
+
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+        crossorigin="anonymous"></script>
+    <script src="js/validacion.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    </body>
+
+</html>
